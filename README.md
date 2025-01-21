@@ -1,4 +1,23 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Learning Path Builder
+
+A Next.js application that helps students create personalized learning paths by selecting topics they want to learn.
+
+## Features
+
+- Interactive topic selection with checkboxes
+- Real-time preview of learning path
+- Dark mode support
+- Responsive design
+- API-ready architecture
+
+## Tech Stack
+
+- **Framework**: Next.js 14 with App Router
+- **Styling**: Tailwind CSS
+- **State Management**: React Hooks
+- **API**: Next.js API Routes
+
+## Project Structure
 
 ## Getting Started
 
