@@ -6,29 +6,71 @@ import { NextResponse } from 'next/server';
 // Dummy data for lesson concepts
 const conceptTemplates = {
   algebra: [
-    'Linear equations',
-    'Quadratic functions',
-    'Systems of equations',
-    'Algebraic proofs'
+    'Linear equations and inequalities',
+    'Quadratic functions and graphs',
+    'Systems of equations and matrices',
+    'Polynomial and rational expressions'
   ],
   geometry: [
-    'Euclidean geometry',
-    'Triangles and circles',
-    'Area and volume',
-    'Geometric proofs'
+    'Euclidean geometry fundamentals',
+    'Triangles and trigonometry',
+    'Circles and spheres',
+    'Area, volume, and surface area'
+  ],
+  calculus: [
+    'Limits and continuity',
+    'Derivatives and differentiation',
+    'Integration techniques',
+    'Applications in physics'
+  ],
+  statistics: [
+    'Descriptive statistics',
+    'Probability distributions',
+    'Hypothesis testing',
+    'Regression analysis'
+  ],
+  physics: [
+    'Classical mechanics',
+    'Waves and oscillations',
+    'Electricity and magnetism',
+    'Modern physics concepts'
+  ],
+  chemistry: [
+    'Atomic structure',
+    'Chemical bonding',
+    'Reactions and equations',
+    'Organic chemistry basics'
+  ],
+  biology: [
+    'Cell structure and function',
+    'Genetics and inheritance',
+    'Evolution and diversity',
+    'Human anatomy'
   ],
   python: [
-    'Basic syntax',
-    'Data structures',
-    'Functions and classes',
-    'Building applications'
+    'Python syntax and data types',
+    'Control flow and functions',
+    'Object-oriented programming',
+    'Libraries and frameworks'
   ],
   javascript: [
     'DOM manipulation',
-    'ES6+ features',
     'Async programming',
-    'Web APIs'
-  ]
+    'Modern ES6+ features',
+    'Frontend frameworks'
+  ],
+  java: [
+    'Java fundamentals',
+    'Object-oriented concepts',
+    'Collections framework',
+    'Multithreading basics'
+  ],
+  "earth science": [
+    'Plate tectonics and Earth structure',
+    'Weather patterns and climate systems',
+    'Rock cycles and mineral formation',
+    'Ocean dynamics and ecosystems'
+  ],
   // ... other subtopics can be added
 };
 

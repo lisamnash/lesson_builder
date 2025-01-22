@@ -6,7 +6,7 @@ type LessonPreviewProps = {
 
 export function LessonPreview({ previewContent }: LessonPreviewProps) {
   return (
-    <div className="max-w-3xl mx-auto mt-12 p-8 rounded-2xl bg-white dark:bg-gray-800 shadow-xl border border-gray-100 dark:border-gray-700">
+    <div className="max-w-3xl mx-auto mt-12 p-8 rounded-2xl bg-white dark:bg-gray-800 shadow-xl border border-gray-100 dark:border-gray-700 animate-fade-in">
       <div className="flex justify-between items-center mb-8">
         <h2 className="text-3xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
           {previewContent.title}
