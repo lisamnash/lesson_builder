@@ -49,3 +49,19 @@ next-env.d.ts
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+#local development files
+*.pyc
+__pycache__/
+db.sqlite3  
+media/
+static/
+
+# Ignore MongoDB-related files
+*.lock
+*.log
+*.json
+*.bson
+node_modules/ 
+
+core/settings.py
