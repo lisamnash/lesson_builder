@@ -1,0 +1,68 @@
+{
+  "algebra": [
+    { "title": "Linear equations and inequalities", "duration": 45 },
+    { "title": "Quadratic functions and graphs", "duration": 60 },
+    { "title": "Systems of equations and matrices", "duration": 50 },
+    { "title": "Polynomial and rational expressions", "duration": 40 }
+  ],
+  "geometry": [
+    { "title": "Euclidean geometry fundamentals", "duration": 30 },
+    { "title": "Triangles and trigonometry", "duration": 45 },
+    { "title": "Circles and spheres", "duration": 35 },
+    { "title": "Area, volume, and surface area", "duration": 40 }
+  ],
+  "calculus": [
+    { "title": "Limits and continuity", "duration": 40 },
+    { "title": "Derivatives and differentiation", "duration": 55 },
+    { "title": "Integration techniques", "duration": 60 },
+    { "title": "Applications in physics", "duration": 45 }
+  ],
+  "statistics": [
+    { "title": "Descriptive statistics", "duration": 35 },
+    { "title": "Probability distributions", "duration": 45 },
+    { "title": "Hypothesis testing", "duration": 50 },
+    { "title": "Regression analysis", "duration": 40 }
+  ],
+  "physics": [
+    { "title": "Classical mechanics", "duration": 50 },
+    { "title": "Waves and oscillations", "duration": 45 },
+    { "title": "Electricity and magnetism", "duration": 55 },
+    { "title": "Modern physics concepts", "duration": 40 }
+  ],
+  "chemistry": [
+    { "title": "Atomic structure", "duration": 40 },
+    { "title": "Chemical bonding", "duration": 45 },
+    { "title": "Reactions and equations", "duration": 50 },
+    { "title": "Organic chemistry basics", "duration": 55 }
+  ],
+  "biology": [
+    { "title": "Cell structure and function", "duration": 45 },
+    { "title": "Genetics and inheritance", "duration": 50 },
+    { "title": "Evolution and diversity", "duration": 40 },
+    { "title": "Human anatomy", "duration": 45 }
+  ],
+  "python": [
+    { "title": "Python syntax and data types", "duration": 35 },
+    { "title": "Control flow and functions", "duration": 45 },
+    { "title": "Object-oriented programming", "duration": 50 },
+    { "title": "Libraries and frameworks", "duration": 40 }
+  ],
+  "javascript": [
+    { "title": "DOM manipulation", "duration": 40 },
+    { "title": "Async programming", "duration": 50 },
+    { "title": "Modern ES6+ features", "duration": 45 },
+    { "title": "Frontend frameworks", "duration": 55 }
+  ],
+  "java": [
+    { "title": "Java fundamentals", "duration": 40 },
+    { "title": "Object-oriented concepts", "duration": 50 },
+    { "title": "Collections framework", "duration": 45 },
+    { "title": "Multithreading basics", "duration": 55 }
+  ],
+  "earth science": [
+    { "title": "Plate tectonics and Earth structure", "duration": 350 },
+    { "title": "Weather patterns and climate systems", "duration": 45 },
+    { "title": "Rock cycles and mineral formation", "duration": 30 },
+    { "title": "Ocean dynamics and ecosystems", "duration": 40 }
+  ]
+} 

@@ -1,36 +1,13 @@
 import { NextResponse } from 'next/server';
 // import { PrismaClient } from '@prisma/client';
+import topicsData from '@/data/topics.json';
 
 // const prisma = new PrismaClient();
 
-const dummyTopics = [
-  {
-    id: 'math',
-    title: 'Mathematics',
-    subtopics: ['Algebra', 'Geometry', 'Calculus', 'Statistics']
-  },
-  {
-    id: 'science',
-    title: 'Science',
-    subtopics: ['Physics', 'Chemistry', 'Biology', 'Earth Science']
-  },
-  {
-    id: 'programming',
-    title: 'Programming',
-    subtopics: ['Python', 'JavaScript', 'Java', 'Web Development']
-  },
-  {
-    id: 'business',
-    title: 'Business',
-    subtopics: ['test1', 'test2', 'test3', 'test4']
-  }
-];
-
 export async function GET() {
   try {
-    // Using dummy data for now
     await new Promise(resolve => setTimeout(resolve, 500));
-    return NextResponse.json(dummyTopics);
+    return NextResponse.json(topicsData.topics);
 
     // Prisma implementation for later:
     /*

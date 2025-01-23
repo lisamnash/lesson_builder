@@ -1,0 +1,63 @@
+{
+  "algebra": {
+    "linear equations and inequalities": {
+      "overview": "Master the fundamentals of solving linear equations and inequalities in algebra",
+      "key_points": [
+        "Understanding equality and inequality symbols",
+        "Solving single-variable equations",
+        "Working with inequalities on a number line",
+        "Real-world applications"
+      ],
+      "examples": [
+        {
+          "problem": "Solve for x: 3x + 4 = 16",
+          "solution": "x = 4",
+          "explanation": "Subtract 4 from both sides, then divide by 3"
+        },
+        {
+          "problem": "Solve: 2x - 5 > 7",
+          "solution": "x > 6",
+          "explanation": "Add 5 to both sides, then divide by 2"
+        }
+      ],
+      "practice_problems": [
+        {
+          "question": "Solve for x: 5x - 3 = 27",
+          "answer": "x = 6"
+        },
+        {
+          "question": "Solve the inequality: -2x + 8 ≤ 0",
+          "answer": "x ≥ 4"
+        }
+      ]
+    }
+  },
+  "python": {
+    "python syntax and data types": {
+      "overview": "Learn the fundamental building blocks of Python programming",
+      "key_points": [
+        "Variables and assignment",
+        "Basic data types: int, float, str, bool",
+        "Type conversion",
+        "Python naming conventions"
+      ],
+      "examples": [
+        {
+          "code": "name = 'Alice'\nage = 25\nheight = 1.75\nis_student = True",
+          "explanation": "Examples of different variable types in Python"
+        },
+        {
+          "code": "x = int('42')\ny = str(3.14)\nprint(f'{x} is now {type(x)}')",
+          "explanation": "Converting between different data types"
+        }
+      ],
+      "practice_problems": [
+        {
+          "question": "Create variables for a person's name, age, and favorite number",
+          "starter_code": "# Define your variables here\nname = \nage = \nfavorite_number = ",
+          "solution": "name = 'John'\nage = 30\nfavorite_number = 7"
+        }
+      ]
+    }
+  }
+} 
